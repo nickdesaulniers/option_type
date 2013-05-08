@@ -11,8 +11,8 @@ fn main () {
     Some(y) if *y == 777 => "Lucky Sevens",
     Some(y) if *y == 666 => "Number of the Beast",
     Some(y) if *y == 42 => "Meaning of Life",
-    Some(_) => "unexpected",
-    None => "nothing"
+    Some(_) => "Nothing special",
+    None => "No value"
   });
   
   match x {
