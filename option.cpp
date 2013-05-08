@@ -15,18 +15,10 @@ int main () {
   if (x) {
     // switch
     switch (*x) {
-      case 777:
-        cout << "Lucky Sevens" << endl;
-        break;
-      case 666:
-        cout << "Number of the Beast" << endl;
-        break;
-      case 42:
-        cout << "Meaning of Life" << endl;
-        break;
-      default:
-        cout << "Nothing special" << endl;
-        break;
+      case 777: cout << "Lucky Sevens"        << endl; break;
+      case 666: cout << "Number of the Beast" << endl; break;
+      case 42: cout  << "Meaning of Life"     << endl; break;
+      default: cout  << "Nothing special"     << endl; break;
     }
   } else {
     cout << "No value" << endl;
